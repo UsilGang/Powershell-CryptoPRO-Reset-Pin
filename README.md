@@ -5,10 +5,17 @@
 
 
 "#your ps script path#\cryptopro_reset_pin_registry_key.ps1 -n %1 [-mn %2] [-mx %3] [-a %4] [-s %5]"
+
 "-n  %1-#your container registry name#"
+
 "-mn %2-#min length brute password#"
+
 "-mx %2-#max length brute password#"
+
 "-a  %3-#algorithm keys crypto provider (GOST 2001\2012)#"
+
 "-s  %4-#alphabet for your brute#"
+
 "This script will brute-force a password from a given alphabet until it iterates over all combinations to length."
+
 "example: ./cryptopro_reset_pin_registry_key.ps1 -n 'RegistryKeyName' -mn 3 -mx 6 -a 2001 -s '0123a'"
