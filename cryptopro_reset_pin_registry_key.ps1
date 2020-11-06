@@ -385,9 +385,9 @@ function GoToHelp(){
 	Write-Host "#your ps script path#\cryptopro_reset_pin_registry_key.ps1 -n %1 [-mn %2] [-mx %3] [-a %4] [-s %5]" -f Blue
 	Write-Host "-n %1-#your container registry name#" -f Blue
 	Write-Host "-mn %2-#min length brute password#" -f Blue
-	Write-Host "-mx %2-#max length brute password#" -f Blue
-	Write-Host "-a %3-#algorithm keys crypto provider (GOST 2001\2012)#" -f Blue
-	Write-Host "-s %4-#alphabet for your brute#" -f Blue
+	Write-Host "-mx %3-#max length brute password#" -f Blue
+	Write-Host "-a %4-#algorithm keys crypto provider (GOST 2001\2012)#" -f Blue
+	Write-Host "-s %5-#alphabet for your brute#" -f Blue
 	Write-Host "This script will brute-force a password from a given alphabet until it iterates over all combinations to length." -f Blue
 	Write-Host "example: ./cryptopro_reset_pin_registry_key.ps1 -n 'RegistryKeyName' -mn 3 -mx 6 -a 2001 -s '0123a'" -f Yellow
 }
