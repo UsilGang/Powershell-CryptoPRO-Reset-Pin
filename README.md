@@ -3,19 +3,12 @@
 
 (EN) This script was written to reset the forgotten PIN code from the Crypto PRO private key container located in the registry. The author is not responsible for any consequences as a result of the installation and use of the script described below, the user uses it "as is" at his own peril and risk.
 
-
+----
 "#your ps script path#\cryptopro_reset_pin_registry_key.ps1 -n %1 [-mn %2] [-mx %3] [-a %4] [-s %5]"
-
 "-n  %1-#your container registry name#"
-
 "-mn %2-#min length brute password#"
-
 "-mx %2-#max length brute password#"
-
 "-a  %3-#algorithm keys crypto provider (GOST 2001\2012)#"
-
 "-s  %4-#alphabet for your brute#"
-
 "This script will brute-force a password from a given alphabet until it iterates over all combinations to length."
-
 "example: ./cryptopro_reset_pin_registry_key.ps1 -n 'RegistryKeyName' -mn 3 -mx 6 -a 2001 -s '0123a'"
