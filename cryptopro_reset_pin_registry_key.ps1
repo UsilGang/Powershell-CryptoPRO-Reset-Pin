@@ -226,8 +226,8 @@ Param(
         [Parameter(Mandatory = $True)]
         [Byte[]] $new,
 		
-		[Parameter(Mandatory = $True)]
-		$provider
+	[Parameter(Mandatory = $True)]
+	$provider
     )
 	[System.IntPtr]$hProv=0	
 	
@@ -252,23 +252,23 @@ Param(
 function CryptoPROResetPin {
 Param(
         [Parameter(Mandatory = $True)]
-		[ValidateLength(1,255)]
+	[ValidateLength(1,255)]
         [string] $container,
 
-		[Parameter(Mandatory = $False)]
-		[ValidateRange(1,12)]
+	[Parameter(Mandatory = $False)]
+	[ValidateRange(1,12)]
         [int] $min_len=1,
 		
-		[Parameter(Mandatory = $False)]
-		[ValidateRange(1,12)]
+	[Parameter(Mandatory = $False)]
+	[ValidateRange(1,12)]
         [int] $max_len=12,
 		
         [Parameter(Mandatory = $False)]
-		[ValidateSet(2001,2012)]
+	[ValidateSet(2001,2012)]
         [int] $alg=2012,
 		
-		[Parameter(Mandatory = $False)]
-		[ValidateLength(1,255)]
+	[Parameter(Mandatory = $False)]
+	[ValidateLength(1,255)]
         [string] $alphabet="0123456789"
     )
 	try {
