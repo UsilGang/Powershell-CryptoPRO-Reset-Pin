@@ -18,4 +18,4 @@
 |-s  %5 | alphabet for your brute |
 
 
-*example: ./cryptopro_reset_pin_registry_key.ps1 -n 'RegistryKeyName' -mn 3 -mx 6 -a 2001 -s '0123a'*
+**example:** *./cryptopro_reset_pin_registry_key.ps1 -n 'RegistryKeyName' -mn 3 -mx 6 -a 2001 -s '0123a'*
