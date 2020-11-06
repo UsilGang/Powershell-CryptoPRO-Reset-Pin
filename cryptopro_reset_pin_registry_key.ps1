@@ -1,7 +1,4 @@
-#set-executionpolicy remotesigned
-#Created By U.G.
-#cd C:\Program Files (x86)\Crypto Pro\CSP
-#https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_profiles?view=powershell-7
+#Created By U.G. 2020
 	
 #import CrytoAPI from advapi32.dll
 $signature = @"
